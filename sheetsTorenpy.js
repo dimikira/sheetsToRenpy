@@ -13,10 +13,10 @@ function srenpy() {
   if (data.length > 0){
     ss.getRange("E1:E").setFormula(`
     IFS(ISNONTEXT(B1) , "",
-    B1="if" , SUBSTITUTE(CONCATENATE("#---if statemnt\n";B1;" ";C1;"\n"),char(10),char(13)),
-    B1="menu" , SUBSTITUTE(CONCATENATE("#---menu\n";B1;":\n";C1;"\n"),char(10),char(13)),
+    B1="if" , SUBSTITUTE(CONCATENATE("#---if statemnt\n";B1;" ";C1;"\n#____"),char(10),char(13)),
+    B1="menu" , SUBSTITUTE(CONCATENATE("#---menu\n";B1;":\n";C1;"\n#____"),char(10),char(13)),
     
-    REGEXMATCH(C1,"\n"),SUBSTITUTE(SUBSTITUTE(CONCATENATE(B1;"    """"""";C1;""""""""),"\n","\n\n"),char(10),char(13)),
+    REGEXMATCH(C1,"\n"),SUBSTITUTE(SUBSTITUTE(CONCATENATE(B1;"    """"""";C1;"""""""";"\n"),"\n","\n\n"),char(10),char(13)),
 
     ISTEXT(B1) , SUBSTITUTE(SUBSTITUTE(CONCATENATE(B1;"    """;C1;""""),"\n","\n\n"),char(10),char(13))
       )`);
@@ -25,4 +25,4 @@ function srenpy() {
       
       }
 
-  } 
+  }  
