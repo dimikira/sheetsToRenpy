@@ -4,24 +4,27 @@ turn google sheet into pasteable renpy code!
 
 install:
 paste code into Apps Script
-![image](https://github.com/dimikira/sheetsToRenpy/assets/116223644/e1cbbae0-9085-4bd7-8a96-43e4f114ba28)
-![image](https://github.com/dimikira/sheetsToRenpy/assets/116223644/00de5023-f972-4d22-914d-5d301ed535ab)
 
+![image](https://github.com/dimikira/sheetsToRenpy/assets/116223644/a53ca41a-4a70-4e11-ad05-91c0469e9954)
+
+![image](https://github.com/dimikira/sheetsToRenpy/assets/116223644/c11f549d-5594-4953-9a19-c5d880547e59)
+<hr>
 usage:
 
 1.) write as so:<br>
   column A _ use for labels<br>
   column B _ use for character names,menu title and if statement starters<br>
   column C _ use for dialouge or commented code
-![image](https://github.com/dimikira/sheetsToRenpy/assets/116223644/629f4a4b-e5c7-46fc-9c09-e71d18715384)
+![image](https://github.com/dimikira/sheetsToRenpy/assets/116223644/fefc5a2c-fce2-4e2c-8007-ac4625636a42)
 
 
 2.) run the script!<br>
   It will paste the text into columns D and E
-![image](https://github.com/dimikira/sheetsToRenpy/assets/116223644/6d2502f0-b751-4974-8505-2bd80026d9af)
+![image](https://github.com/dimikira/sheetsToRenpy/assets/116223644/af134ec6-09e9-4580-822d-a29b045117f7)
+![image](https://github.com/dimikira/sheetsToRenpy/assets/116223644/19f016c9-d438-4f13-9c70-41c47dab8fd2)
 
 3.) copy columns D and E and paste into you code editor
-![image](https://github.com/dimikira/sheetsToRenpy/assets/116223644/09ffe00d-d17e-4e57-8dd4-71f85a5f8dce)
+![image](https://github.com/dimikira/sheetsToRenpy/assets/116223644/a3f54fe5-5324-4a08-a668-c7776a2e5e27)
 
 4.) add indents for menu / if statements as needed.
-![image](https://github.com/dimikira/sheetsToRenpy/assets/116223644/f74006dc-cff2-4c4d-a6e4-c318eb9b1004)
+![image](https://github.com/dimikira/sheetsToRenpy/assets/116223644/1c873766-57ef-4cbd-8cae-a114c14cfe82)
